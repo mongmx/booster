@@ -12,9 +12,26 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
-
+.glide/
+.idea/app
+*.swp
+*.iml
+.vscode/
+app
+/paybox_go
+gin-bin
+TODO
+assets/*.csv
+vendor/
+node_modules/
+doc
+secret/
+migrations/dbconfig.yml
+tests/cypress/screenshots/
+tests/cypress/videos/
+/tests/sms.txt
+tests/node_modules/
+tmp/
 /workspace.xml
-.idea
-
+.idea/
 data
